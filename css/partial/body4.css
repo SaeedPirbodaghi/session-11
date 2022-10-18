@@ -1,0 +1,61 @@
+div.body4-container{
+    width: var(--widthBody);
+    position: relative;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 16px 16px 40px 16px;
+    display: flex;
+    flex-direction: column;
+}
+div.body4-container>div.sec1{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+div.body4-container>div.sec1>h3{
+    color: #0C0C0C;
+    font-size: 21px;
+    font-family: yekan;
+}
+div.body4-container>div.sec2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div.body4-container>div.sec2>div.category{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.body4-container>div.sec2>div.category>img{
+    width: 170px;
+}
+div.body4-container>div.sec2>div.category>div.text{
+    margin-top: 8px;
+}
+div.body4-container>div.sec2>div.category>div.text>p{
+    font-family: yekan;
+    font-size: 13.5px;
+}
+div.body4-container>div.sec3>div.category>div.text>p{
+    font-family: yekan;
+    font-size: 13.5px;
+}
+div.body4-container>div.sec3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.body4-container>div.sec3>div.category{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25px;
+    margin-top: 25px;
+}
+div.body4-container>div.sec3>div.category>img{
+    width: 170px;
+}

@@ -1,0 +1,112 @@
+div.body6-container{
+    width: var(--widthBody);
+    position: relative;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+div.body6-container>div.title{
+    width: 100%;
+    height: 44px;
+    padding: 16px 0;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+}
+div.body6-container>div.title>h3{
+    line-height: 44px;
+    font-family: yekan;
+    font-size: 21px;
+}
+div.body6-container>div.main{
+    width: 100%;
+    height: 309px;
+    margin-top: 8px;
+    border-radius: 16px;
+    border: solid 1px var(--colorBorder);
+    display: flex;
+}
+div.body6-container>div.main>div.section{
+    height: 100%;
+    width: calc(var(--widthBody) / 7);
+    border-right: solid 1px var(--colorBorder);
+}
+div.body6-container>div.main>div.section#last{
+    border-right:unset;
+}
+div.body6-container>div.main>div.section>div.top{
+    height: calc(309px / 2);
+    width: 100%;
+    border-bottom: solid 1px var(--colorBorder);
+    padding: 16px 4px;
+}
+div.body6-container>div.main>div.section>div.top>div.pic{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+}
+div.body6-container>div.main>div.section>div.top>div.text{
+    width: 100%;
+    height: 30px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+}
+div.body6-container>div.main>div.section>div.top>div.text>span{
+    font-family: yekan;
+    font-size: 15px;
+}
+div.body6-container>div.main>div.section>div.bottom>div.text>span{
+    font-family: yekan;
+    font-size: 15px;
+}
+div.body6-container>div.main>div.section>div.top>div.pic>div.circle{
+    width: 84px;
+    height: 84px;
+    background-color: var(--bgGray);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+div.body6-container>div.main>div.section>div.top>div.pic>div.circle>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+div.body6-container>div.main>div.section>div.bottom{
+    height: calc(309px / 2);
+    width: 100%;
+    padding: 16px 4px;
+}
+div.body6-container>div.main>div.section>div.bottom>div.pic{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+}
+div.body6-container>div.main>div.section>div.bottom>div.text{
+    width: 100%;
+    height: 30px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+}
+div.body6-container>div.main>div.section>div.bottom>div.pic>div.circle{
+    width: 84px;
+    height: 84px;
+    background-color: var(--bgGray);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+div.body6-container>div.main>div.section>div.bottom>div.pic>div.circle>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

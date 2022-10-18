@@ -1,0 +1,106 @@
+div.swiper2-container{
+    width: var(--widthBody);
+    height: 286px;
+    background-color: #EF394E;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 24px;
+    padding: 20px 2px;
+    display: flex;
+    justify-content: space-between;
+}
+div.swiper-slide#slide-right{
+  border-radius: 0 8px 8px 0;
+}
+div.swiper-slide#slide-left{
+  border-radius: 8px 0 0 8px;
+}
+div.swiper-slide#logo{
+  background-color: #EF394E;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+div.swiper-slide#logo>img#img1{
+  width: 85px;
+}
+div.swiper-slide#logo>img#img2{
+  width: 130px;
+}
+div.swiper-slide#logo>div.text{
+  display: flex;
+  padding-left: 30px;
+  color: white;
+  padding-top: 10px;
+  font-family: yekan;
+  font-size: 15px;
+  line-height: 12px;
+}
+
+div.swiper-slide>div.picture{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+div.swiper-slide>div.text{
+  width: 150px;
+  height: 65px;
+}
+div.swiper-slide#cells,div.swiper-slide#slide-left,div.swiper-slide#slide-right,div.swiper-slide#logo{
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+}
+div.swiper-slide>div.text>div.price{
+  height: 35px;
+  width: 100%;
+  display: flex;
+}
+div.swiper-slide>div.text>div.before-price{
+  height: 25px;
+  width: 100%;
+  display: flex;
+  padding-left: 20px;
+  font-size: 12px;
+  line-height: 25px;
+  color: var(--colorDel);
+  font-family: yekan;
+}
+div.swiper-slide>div.text>div.price>div.sec1{
+  height: 100%;
+  width: 100px;
+  display: flex;
+  padding-top: 8px;
+}
+div.swiper-slide>div.text>div.price>div.sec1>span{
+  padding-left: 5px;
+  color: var(--colorPrice);
+  font-family: yekan;
+  line-height: 12px;
+}
+
+div.swiper-slide>div.text>div.price>div.sec2{
+  height: 100%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+}
+div.swiper-slide>div.text>div.price>div.sec2>div.takhfif{
+  height: 20px;
+  width: 34px;
+  border-radius: 10px;
+  background-color: #EF394E;
+  display: flex;
+  justify-content: center;
+  padding-top: 4.5px;
+}
+div.swiper-slide>div.text>div.price>div.sec2>div.takhfif>span{
+  color: white;
+  font-size: 12px;
+  line-height: 10px;
+  font-family: yekan;
+}
+
+

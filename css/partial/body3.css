@@ -1,0 +1,12 @@
+div.body3-container{
+    width: var(--widthBody);
+    position: relative;
+    margin: 0 auto;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+div.body3-container>img{
+    width: 314px;
+    border-radius: 16px;
+}

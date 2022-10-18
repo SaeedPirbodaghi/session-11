@@ -1,0 +1,105 @@
+div.body2-container{
+    width: var(--widthBody);
+    height: 102px;
+    background-color: #EAEDEA;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 8px;
+    border-radius: 16px;
+    background-image: url(../../images/freshPattern.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+div.body2-container>div.left{
+    height: 100%;
+    display: flex;
+}
+div.body2-container>div.left>div.sec1{
+    height: 100%;
+    width: 140px;
+    padding-top: 17px;
+}
+div.body2-container>div.left>div.sec1>div.shape{
+    height: 50px;
+    width: 140px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: var(--color-fresh-700);
+}
+div.body2-container>div.left>div.sec1>div.shape>span{
+    font-family: yekan;
+    line-height: 20px;
+    font-size: 13px;
+}
+div.body2-container>div.left>div.sec2{
+    height: 100%;
+    display: flex;
+    padding-top: 4px;
+}
+div.body2-container>div.left>div.sec2>div.container{
+    display: block;
+}
+div.body2-container>div.left>div.sec2>div.container>div.pictures{
+    height: 74px;
+    width: 74px;
+    background-color: white;
+    border-radius: 41px;
+    margin-left: 8px;
+    padding: 8px;
+}
+div.body2-container>div.left>div.sec2>div.container>div.pictures>img{
+    width: 100%;
+    border-radius: 29px;
+}
+div.body2-container>div.left>div.sec2>div.container>div.shape{
+    width: 34px;
+    height: 20px;
+    background-color: var(--bgRed);
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+div.body2-container>div.left>div.sec2>div.container>div.shape>span{
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+    font-family: yekan;
+    line-height: 10px;
+}
+div.body2-container>div.right{
+    height: 100%;
+    width: 468px;
+    display: flex;
+    justify-content: space-between;
+}
+div.body2-container>div.right>div.shape{
+    height: 28px;
+    width: 112px;
+    background-color: var(--color-fresh-700);
+    border-radius: 14px;
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+}
+div.body2-container>div.right>div.shape>p{
+    color: white;
+    padding-top: 5px;
+    font-family: yekan;
+    line-height: 16px;
+}
+div.body2-container>div.right>img#img1{
+    width: 250px;
+}
+div.body2-container>div.right>img#img2{
+    width: 66px;
+    height: 62px;
+    margin-top: 14px;
+}

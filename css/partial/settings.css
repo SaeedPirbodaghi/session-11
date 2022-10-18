@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrapper{
+    width: 100%;
+    height: 3000px;
+}
+:root{
+    --bgGray: #F0F0F1;
+    --bgRed: rgb(239,57,78);
+    --color-icon-low-emphasis: #a1a3a8;
+    --color-icon-high-emphasis:#424750;
+    --color-icon-white: #fff;
+    --color-fresh-700: #39ae00;
+    --colorBorder: rgb(224,224,226);
+    --colorTextMenu: rgb(98,102,109);
+    --colorTextMenu-S3: rgb(66,71,80);
+    --colorPrice:#424750;
+    --colorDel: #C0C2C5;
+    --colorBorder:#E0E0E2;
+    --color-neutral-700: #424750;
+    --color-gray: #eee;
+    --color-kids-300:#fb507d;
+    --color-talktous: #ef4056;
+
+    --widthHeader:86%;
+    --widthHeaderMin: 1000px;
+    --widthHeaderMax: 1650px;
+    --widthBody: 1304px;
+
+    --positionTop: max(calc(9.4vw),130px);
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(../../fonts/Yekan.eot);
+    src: url(../../fonts/Yekan.ttf);
+    src: url(../../fonts/Yekan.woff);
+    src: url(../../fonts/Yekan.woff2);
+}
+@font-face {
+    font-family: iranSans;
+    src: url(../../fonts/Iranian\ Sans.ttf);
+}
